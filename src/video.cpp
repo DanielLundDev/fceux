@@ -206,7 +206,6 @@ void FCEU_PutImage(void)
 		if (nameo[0])
 		{
 			SaveSnapshot(nameo);
-			FCEU_DispMessage("Snapshot Saved.",0);
 		}
 		dosnapsave=0;
 	}
